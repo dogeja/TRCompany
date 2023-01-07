@@ -972,14 +972,18 @@ html {
   .mv_4_img_wrap {
     display: flex;
     flex-direction: column;
-    width: 91.66%;
+
     margin: 0 auto;
     padding: 30px 0 0px;
     box-sizing: border-box;
     align-items: center;
+    left: 0;
+    right: 0;
+    position: relative;
   }
   .mv_4_img_wrap > img {
-    max-width: 465px;
+    width: 340px;
+    margin-left: 15px;
   }
   .mv_4_img_wrap > img:last-child {
     display: none;
